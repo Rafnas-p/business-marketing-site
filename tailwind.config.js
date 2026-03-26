@@ -7,6 +7,9 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
       colors: {
         accent: {
           blue: '#3b82f6',

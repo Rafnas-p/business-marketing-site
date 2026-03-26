@@ -11,21 +11,29 @@ const Projects = () => {
       title: 'Pro Gamer Portfolio',
       description: 'Bold, highly customizable personal sites for gamers of all styles and aesthetics',
       image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=600&fit=crop',
+      demoLink: '#',
+      caseStudyLink: '#'
     },
     {
-      title: 'Digital Marketer Site',
-      description: 'Personal brand and high-converting lead-gen portfolio for a marketing expert',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
+      title: 'Fasalu | Developer Portfolio',
+      description: 'A modern, interactive personal developer portfolio built with React.js',
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop',
+      demoLink: 'https://fasalu.vercel.app/project',
+      caseStudyLink: '#'
     },
     {
       title: 'InnovateMD Telehealth',
       description: 'High-converting SaaS landing page and secure telemedicine dashboard',
       image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=600&fit=crop',
+      demoLink: '#',
+      caseStudyLink: '#'
     },
     {
       title: 'NextGen Analytics Startup',
       description: 'Strategic B2B lead generation platform and dynamic web app',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
+      demoLink: '#',
+      caseStudyLink: '#'
     },
   ]
 
@@ -96,7 +104,9 @@ const Projects = () => {
                   </p>
                   <div className="flex gap-4">
                     <motion.a
-                      href="#"
+                      href={project.demoLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className={cn(
                         'flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all duration-300 text-white'
                       )}
@@ -108,7 +118,7 @@ const Projects = () => {
                       Live Demo
                     </motion.a>
                     <motion.a
-                      href="#"
+                      href={project.caseStudyLink}
                       className={cn(
                         'flex items-center gap-2 px-4 py-2 rounded-lg font-medium border-2 transition-all duration-300'
                       )}

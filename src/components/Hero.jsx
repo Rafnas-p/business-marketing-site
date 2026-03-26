@@ -102,8 +102,8 @@ const Hero = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75" style={{ backgroundColor: getAccentColorValue() }}></span>
                 <span className="relative inline-flex rounded-full h-3 w-3" style={{ backgroundColor: getAccentColorValue() }}></span>
               </span>
-              <span className="font-semibold text-gray-900 dark:text-white">
-                Special Offer: Only ₹3,000 for my next 5 clients <span className="font-normal text-gray-500 ml-1">(Usually ₹5,000)</span>
+              <span className="font-medium text-gray-900 dark:text-white">
+                🎉 <span className="font-bold">Launch Special!</span> To build my portfolio, my first 5 clients get a premium site for just <span className="font-bold text-green-600 dark:text-green-400">₹3,000</span> <span className="line-through text-gray-500 text-sm ml-1">₹7,000</span>. I've already booked 2, so only <span className="font-bold text-red-500">3 spots remain!</span> Let's build something amazing together! ✨
               </span>
             </div>
           </motion.div>
