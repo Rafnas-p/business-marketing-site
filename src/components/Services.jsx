@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FiTarget, FiTrendingUp, FiGlobe, FiSearch, FiSmartphone } from 'react-icons/fi'
+import { FiMonitor, FiTarget, FiGlobe, FiSearch, FiSmartphone } from 'react-icons/fi'
 import { useTheme } from '../contexts/ThemeContext'
 import { cn } from '../utils/cn'
 
@@ -8,20 +8,20 @@ const Services = () => {
 
   const services = [
     {
-      title: 'Healthcare Practice Websites',
-      icon: FiGlobe,
+      title: 'Personal Portfolios',
+      icon: FiMonitor,
     },
     {
       title: 'Startup Landing Pages',
       icon: FiTarget,
     },
     {
-      title: 'Search Engine Optimization',
-      icon: FiSearch,
+      title: 'Business Websites',
+      icon: FiGlobe,
     },
     {
-      title: 'Lead Generation Systems',
-      icon: FiTrendingUp,
+      title: 'Search Engine Optimization',
+      icon: FiSearch,
     },
     {
       title: 'Responsive & Fast Design',

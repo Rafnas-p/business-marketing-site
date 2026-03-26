@@ -50,7 +50,7 @@ const About = () => {
             className="prose prose-lg dark:prose-invert max-w-none text-center"
           >
             <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              I am a professional web developer focused on helping doctors, clinics, and startups build high-performing websites. Instead of just creating personal-style websites, I design strategic platforms that improve visibility on Google, generate leads, and establish trust with clients. My goal is to deliver websites that not only look professional but also rank well, communicate clearly, and convert visitors into real customers.
+              I am a professional web developer focused on helping individuals and businesses build high-performing websites. From crafting unique personal portfolios for gamers, developers, and marketers, to designing strategic platforms for startups, my goal is to deliver websites that look professional, rank well, and convert visitors into clients or fans.
             </p>
           </motion.div>
 
@@ -59,7 +59,7 @@ const About = () => {
             className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6"
           >
             {[
-              { label: 'Focus', value: 'Healthcare & Startups' },
+              { label: 'Focus', value: 'Portfolios & Business' },
               { label: 'Location', value: 'Kerala, India' },
               { label: 'Strategy', value: 'SEO & Conversions' },
             ].map((item, index) => (

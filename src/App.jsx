@@ -6,14 +6,14 @@ function App() {
   return (
     <ThemeProvider>
       <Helmet>
-        <title>Rafnas | Professional Web Development & Personal Portfolios</title>
+        <title>Rafnas | Premium Personal Portfolios & Business Websites</title>
         <meta
           name="description"
-          content="Professional web development services for businesses, creators, gamers, and developers. Build high-performing websites and personal portfolios."
+          content="Professional web development services specializing in premium personal portfolios for gamers, developers, and marketers, alongside high-performing business websites."
         />
         <meta
           name="keywords"
-          content="Personal Portfolios, Gamer Websites, Developer Portfolios, Business Websites, SEO, Web Developer, Rafnas"
+          content="Personal Portfolio Developer, Gamer Portfolio, Developer Portfolio, Business Websites, Startup Websites, Web Developer, Rafnas"
         />
         <meta name="author" content="Rafnas" />
         <meta name="robots" content="index, follow" />
@@ -22,11 +22,11 @@ function App() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Rafnas | Professional Web Development & Personal Portfolios"
+          content="Rafnas | Premium Personal Portfolios & Business Websites"
         />
         <meta
           property="og:description"
-          content="Custom websites and portfolios designed for gamers, developers, marketers, and businesses."
+          content="Strategic, fast, and stunning websites for gamers, marketers, developers, and growing startups."
         />
         <meta property="og:url" content="https://rafnas.dev" />
         
@@ -34,11 +34,11 @@ function App() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Rafnas | Web Development & Portfolios"
+          content="Rafnas | Premium Web Development"
         />
         <meta
           name="twitter:description"
-          content="Custom websites and portfolios designed for gamers, developers, marketers, and businesses."
+          content="Strategic, fast, and stunning websites for gamers, marketers, developers, and growing startups."
         />
         
         {/* Canonical */}

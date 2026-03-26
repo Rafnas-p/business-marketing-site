@@ -93,10 +93,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
                     <a
-                      href="mailto:contact@rafnas.dev"
+                      href="mailto:rafnasrooni@gmail.com"
                       className="text-gray-600 dark:text-gray-400 hover:opacity-80 transition-opacity"
                     >
-                      contact@rafnas.dev
+                      rafnasrooni@gmail.com
                     </a>
                   </div>
                 </div>
@@ -116,12 +116,12 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">WhatsApp</h3>
                     <a
-                      href="https://wa.me/1234567890"
+                      href="https://wa.me/919633298524"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-600 dark:text-gray-400 hover:opacity-80 transition-opacity"
                     >
-                      +91 1234567890
+                      +91 9633298524
                     </a>
                   </div>
                 </div>

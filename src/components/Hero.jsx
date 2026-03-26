@@ -64,7 +64,7 @@ const Hero = () => {
                 color: getAccentColorValue(),
               }}
             >
-              Strategic Web Development
+              Premium Web Development
             </span>
           </motion.div>
 
@@ -72,24 +72,41 @@ const Hero = () => {
             variants={animationsEnabled ? itemVariants : {}}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-gray-900 dark:text-white"
           >
-            High-Performing Websites for{' '}
-            <span style={{ color: getAccentColorValue() }}>Doctors, Clinics & Startups</span>
+            Stand Out with a Premium{' '}
+            <span style={{ color: getAccentColorValue() }}>Portfolio or Business Website</span>
           </motion.h1>
 
           <motion.h2
             variants={animationsEnabled ? itemVariants : {}}
             className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6 text-gray-700 dark:text-gray-300"
           >
-            Convert Visitors into Real Customers
+            Built for Gamers, Developers, Marketers & Startups
           </motion.h2>
 
           <motion.p
             variants={animationsEnabled ? itemVariants : {}}
-            className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed"
+            className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed"
           >
-            I build strategic, search-optimized platforms that improve visibility on Google, 
-            generate leads, and establish trust with your clients.
+            Whether you need a dynamic personal portfolio to showcase your skills or a high-converting platform for your business, I build strategic, fast, and stunning websites that elevate your online presence.
           </motion.p>
+
+          <motion.div
+            variants={animationsEnabled ? itemVariants : {}}
+            className="mb-10"
+          >
+            <div 
+              className="inline-flex items-center gap-3 px-6 py-3 rounded-xl border-2 shadow-sm"
+              style={{ borderColor: getAccentColorValue(), backgroundColor: `${getAccentColorValue()}10` }}
+            >
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75" style={{ backgroundColor: getAccentColorValue() }}></span>
+                <span className="relative inline-flex rounded-full h-3 w-3" style={{ backgroundColor: getAccentColorValue() }}></span>
+              </span>
+              <span className="font-semibold text-gray-900 dark:text-white">
+                Special Offer: Only ₹3,000 for my next 5 clients <span className="font-normal text-gray-500 ml-1">(Usually ₹5,000)</span>
+              </span>
+            </div>
+          </motion.div>
 
           <motion.div
             variants={animationsEnabled ? itemVariants : {}}

@@ -8,19 +8,19 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Apex Health Clinic Portal',
-      description: 'Comprehensive patient portal and automated appointment system',
-      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=600&fit=crop',
+      title: 'Pro Gamer Portfolio',
+      description: 'Bold, highly customizable personal sites for gamers of all styles and aesthetics',
+      image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=600&fit=crop',
+    },
+    {
+      title: 'Digital Marketer Site',
+      description: 'Personal brand and high-converting lead-gen portfolio for a marketing expert',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
     },
     {
       title: 'InnovateMD Telehealth',
       description: 'High-converting SaaS landing page and secure telemedicine dashboard',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
-    },
-    {
-      title: 'Dr. Smith Dental Care',
-      description: 'Search-optimized practice website redesign with 300% SEO growth',
-      image: 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=600&fit=crop',
     },
     {
       title: 'NextGen Analytics Startup',
