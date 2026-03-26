@@ -15,17 +15,17 @@ const Projects = () => {
       caseStudyLink: '#'
     },
     {
+      title: 'Amir | Full Stack Engineer',
+      description: 'A clean, high-performance individual portfolio designed for a full-stack engineer.',
+      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop',
+      demoLink: 'https://www.muhdamir.online/',
+      caseStudyLink: '#'
+    },
+    {
       title: 'Fasalu | Developer Portfolio',
       description: 'A modern, interactive personal developer portfolio built with React.js',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop',
       demoLink: 'https://fasalu.vercel.app/project',
-      caseStudyLink: '#'
-    },
-    {
-      title: 'InnovateMD Telehealth',
-      description: 'High-converting SaaS landing page and secure telemedicine dashboard',
-      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=600&fit=crop',
-      demoLink: '#',
       caseStudyLink: '#'
     },
     {
